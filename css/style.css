@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid gray;
+    display: inline-block;
+    position: relative; 
+}
+
+.o:after{
+    content: "\1F6E1";
+    line-height: 100px;
+    font-size: 70px;
+    position: absolute;
+    /* Outra forma de centralizar */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x:after{
+    content: "\2694";
+    line-height: 100px;
+    font-size: 70px;
+    position: absolute;
+    /* Outra forma de centralizar */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#btn{
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(87, 155, 74);
+    border-radius: 5px; 
+}
+
+#btn:hover{
+    background-color: rgb(107, 182, 107);
+    color: black;
+}
+
+
